@@ -1,0 +1,49 @@
+html, body{
+	height: 100%
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navbar {
+	background-color: #4aaaa5;
+}
+
+ul {
+	font-weight: bold;
+}
+
+h1, h2, h3 {
+	font-family: "Georgia";
+
+}
+
+p {
+	font-family: "Helvetica";
+}
+
+.content {
+	//border: 1px #4aaaa5;
+}
+
+.content-left {
+	padding: 30px;
+	margin-top: 40px;
+	border: 1px solid #4aaaa5;
+}
+
+.pic-bio {
+	width: 100%;
+	height: auto;
+	margin-right: 20px;
+}
+
+@media screen and (min-width: 501px) {
+  .pic-bio {
+		
+		width: 100px;
+		float: left;
+	}
+}
+
+
